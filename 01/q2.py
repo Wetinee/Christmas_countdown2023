@@ -6,4 +6,4 @@ def compute_value(line):
         for d, w in enumerate(("one", "two", "three", "four", "five", "six", "seven", "eight", "nine")):
             if line[i: i + len(w)] == w:
                 first, last = first or d+1, d+1
-    return 10*first + last
+    return first*10 + last
