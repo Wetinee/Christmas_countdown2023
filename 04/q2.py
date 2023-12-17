@@ -8,6 +8,6 @@ def sum_scratchcards(data):
     for i, (s, m) in enumerate(pairs):
         for next in range(1, m+1):
             if (i+next) < len(pairs):
-                pairs[i+next] = (pairs[i+next][0] + 1*s, pairs[i+next][1])
+                pairs[i+next] = (pairs[i+next][0] + s, pairs[i+next][1])
     return sum(s for s, _ in pairs)
         
