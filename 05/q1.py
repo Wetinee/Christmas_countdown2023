@@ -22,5 +22,5 @@ def map_seeds(data):
                     s = s - interval[1][0] + interval[0][0]
                     break
         result.append(s)
-        
+
     return min(result)
