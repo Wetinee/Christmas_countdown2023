@@ -32,9 +32,3 @@ def predict_first_number(line):
 # q2   
 def sum_first_nums(data):
     return sum([predict_first_number(line) for line in data])
-        
-
-
-
-    
-    
