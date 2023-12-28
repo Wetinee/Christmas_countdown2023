@@ -46,6 +46,7 @@ class array2D:
             for y in range(self.col):
                 if self.data[x][y] == "S":
                     return (x, y)
+        assert False, "Starting point not found."
 
     def find_max_distance(self):
         visited = set()
